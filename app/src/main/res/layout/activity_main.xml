@@ -25,22 +25,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_inserir"
+        app:backgroundTint="@color/my_primary"
         android:text="INSERIR"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_editar"
+        app:backgroundTint="@color/my_second"
         android:text="EDITAR"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_eliminar"
+        app:backgroundTint="@color/my_thirteen"
         android:text="ELIMINAR"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_limpar"
+        app:backgroundTint="@color/my_fortheen"
         android:text="LIMPAR"/>
 
     <ListView
